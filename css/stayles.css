@@ -374,9 +374,9 @@ h3 {
 
 
 /* section5 */
-
-.nav2 {
+s .nav2 {
     margin-top: 95px;
+
 }
 
 .nav2 .list1 {
@@ -435,6 +435,7 @@ li {
 .section5 {
     padding-top: 50px;
     margin-bottom: 94px;
+    margin-left: 50px;
 }
 
 .section5 ul {
