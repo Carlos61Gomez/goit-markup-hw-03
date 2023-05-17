@@ -8,12 +8,12 @@ body {
     font-size: 14px;
 }
 
-.containerr {
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 figure {
@@ -32,20 +32,23 @@ figure {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.3px;
+    line-height: 0.8;
     letter-spacing: 0.03em;
     color: #2196f3;
-    margin-bottom: 25px;
-    margin-top: 35px;
-    margin-right: 93px;
+    padding: 35px 0px;
+    margin-right: 100px;
     cursor: pointer;
+
+    text-decoration: none;
 }
 
-.header-nav ul {
-    display: flex;
-    margin-top: 32px;
-    margin-bottom: 32px;
+.header-nav {
+    padding: 35px 0px;
+}
 
+.header_ul {
+    display: flex;
+    padding: 0px;
 }
 
 .header-ul a {
@@ -54,34 +57,61 @@ figure {
     color: black;
 }
 
+.header_ul {
+    list-style-type: none;
+    margin: 0px;
+
+
+    margin-right: 60px;
+}
+
+.header-nav {
+    margin-right: 200px;
+}
+
 .stady,
 .portfolio {
     text-decoration: none;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 60px;
     color: black;
+    cursor: pointer;
 }
 
 .contact {
     text-decoration: none;
     list-style-type: none;
-    margin-right: 250px;
+
     color: black;
+    cursor: pointer;
 }
 
 .section_header2 {
+    text-decoration: none;
+    list-style-type: none;
     display: flex;
     align-items: center;
+    margin: 0px;
+    padding: 35px 0px;
+
 }
 
 .email {
     display: inline-flex;
-    padding-left: 10px;
-
+    margin-right: 50px;
     text-decoration: none;
     list-style-type: none;
     color: #757575;
-    margin-right: 50px;
+
+    cursor: pointer;
+}
+
+.number {
+    text-decoration: none;
+    list-style-type: none;
+    color: #757575;
+    cursor: pointer;
+
 }
 
 .email:focus,
@@ -91,21 +121,13 @@ figure {
     border-color: #2196f3;
 }
 
-.number {
-    text-decoration: none;
-    list-style-type: none;
-    color: #757575;
-}
+
 
 .header_ul a:hover,
 .header_ul a:focus {
     color: #2196f3;
 }
 
-.header_ul {
-    list-style-type: none;
-
-}
 
 .number:hover,
 .number:focus {
@@ -122,7 +144,7 @@ figure {
     color: white;
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     margin: 0;
 }
 
@@ -133,7 +155,7 @@ figure {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 0;
+    padding-top: ;
     margin-bottom: 30px;
 
     color: #FFFFFF;
@@ -144,13 +166,14 @@ figure {
 .btn-primary {
     font-family: 'Roboto';
     font-style: normal;
-    line-height: 30px;
+    line-height: 1.8;
     font-size: 16px;
     font-weight: 700;
     background-color: #2196f3;
 
     color: white;
     padding: 10px 32px;
+    cursor: pointer;
 
 }
 
@@ -160,11 +183,7 @@ figure {
     color: #F5F4FA;
 }
 
-.container {
-    padding: 0 15px;
-    max-width: 1200px;
-    margin: auto;
-}
+
 
 /* section1 */
 
@@ -180,7 +199,7 @@ figure {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.2;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #212121;
@@ -192,7 +211,7 @@ figure {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -202,6 +221,7 @@ figure {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
+    gap: 30px;
 
 }
 
@@ -209,21 +229,15 @@ h3 {
     margin: 0;
 }
 
-.section2 li {
-    margin-right: 30px;
+.section_description {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
     color: #757575;
 
-}
-
-.section_description {
     text-transform: initial;
     justify-content: center;
 }
@@ -237,7 +251,7 @@ h3 {
     margin-bottom: 94px;
 }
 
-.section3_h2 {
+h2 {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 50px;
@@ -245,7 +259,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.8;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -325,7 +339,7 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -345,7 +359,7 @@ h3 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.3px;
+    line-height: 1.2px;
     letter-spacing: 0.03em;
     color: #212121;
 
@@ -367,6 +381,9 @@ h3 {
     padding-bottom: 30px;
 }
 
+.autor {
+    padding: 30px 40px;
+}
 
 /* section4 */
 
@@ -374,12 +391,9 @@ h3 {
 
 
 /* section5 */
-s .nav2 {
-    margin-top: 95px;
 
-}
 
-.nav2 .list1 {
+.list1 {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -391,14 +405,14 @@ li {
     padding-inline-start: 0px;
 }
 
-.nav2 .list1 li {
+.list1 li {
     float: left;
     margin-top: 20px;
     padding: 6px 24px;
 
 }
 
-.nav2 .list1 li button {
+.list1 li button {
     border: none;
 }
 
@@ -406,16 +420,14 @@ li {
 .button-0 {
 
     background-color: transparent;
-    width: auto;
-    height: auto;
-    border: 0;
     list-style-type: none;
     font-family: 'Roboto';
     font-weight: 500px;
     font-size: 16px;
-    line-height: 1.3em;
+    line-height: 1.6;
     margin-right: 8px;
     padding: 6px 24px;
+    cursor: pointer;
 }
 
 .button-0:hover,
@@ -428,7 +440,7 @@ li {
 }
 
 
-.containerr {
+.container {
     list-style: none;
 }
 
@@ -442,14 +454,11 @@ li {
     list-style-type: none;
 }
 
-.section5 li {
-    width: 370px;
-}
 
 .imagenes {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
 
 }
 
@@ -498,7 +507,7 @@ address p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.03em;
     color: #ffffff;
 }
