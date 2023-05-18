@@ -14,6 +14,7 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 figure {
@@ -21,9 +22,16 @@ figure {
 }
 
 /* header*/
+
+
+
 .section_header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 24px;
+    align-items: center;
+
+
 }
 
 .logo {
@@ -32,7 +40,7 @@ figure {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.8;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2196f3;
     padding: 35px 0px;
@@ -70,21 +78,30 @@ figure {
 }
 
 .stady,
-.portfolio {
+.portfolio,
+.contact {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
     text-decoration: none;
     list-style-type: none;
     margin-right: 60px;
     color: black;
+    margin-right: 50px;
     cursor: pointer;
 }
 
-.contact {
-    text-decoration: none;
-    list-style-type: none;
 
-    color: black;
-    cursor: pointer;
+.stady,
+.portfolio,
+.contact:focus,
+:hover {
+    color: #2196f3;
+    fill: #2196f3;
+    border-color: #2196f3;
 }
+
+
 
 .section_header2 {
     text-decoration: none;
@@ -97,6 +114,9 @@ figure {
 }
 
 .email {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
     display: inline-flex;
     margin-right: 50px;
     text-decoration: none;
@@ -107,6 +127,9 @@ figure {
 }
 
 .number {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
     text-decoration: none;
     list-style-type: none;
     color: #757575;
@@ -115,22 +138,14 @@ figure {
 }
 
 .email:focus,
-.email:hover {
+:hover {
     color: #2196f3;
     fill: #2196f3;
     border-color: #2196f3;
 }
 
-
-
-.header_ul a:hover,
-.header_ul a:focus {
-    color: #2196f3;
-}
-
-
 .number:hover,
-.number:focus {
+:focus {
     color: #2196f3;
     fill: #2196f3;
     border-color: #2196f3;
@@ -140,12 +155,14 @@ figure {
 
 /* section1 */
 .section1 {
+
     background: #2F303A;
     color: white;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 250px;
-    margin: 0;
+
+    margin: 0 auto;
 }
 
 .section1-title {
@@ -155,8 +172,7 @@ figure {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    padding-top: ;
-    margin-bottom: 30px;
+    margin: 0px;
 
     color: #FFFFFF;
 }
@@ -166,11 +182,13 @@ figure {
 .btn-primary {
     font-family: 'Roboto';
     font-style: normal;
-    line-height: 1.8;
+    line-height: 1.9;
     font-size: 16px;
     font-weight: 700;
     background-color: #2196f3;
+    margin-top: 50px;
 
+    border-radius: 5px;
     color: white;
     padding: 10px 32px;
     cursor: pointer;
@@ -191,7 +209,9 @@ figure {
 /* section2 */
 
 .section2 {
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 
 .section2 h3 {
@@ -204,6 +224,8 @@ figure {
     text-transform: uppercase;
     color: #212121;
 
+    margin-bottom: 25px;
+
 }
 
 .section2 p {
@@ -214,6 +236,8 @@ figure {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
+
+    margin: 0px;
 }
 
 .section2 ul {
@@ -221,7 +245,9 @@ figure {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
+
     gap: 30px;
+    padding-left: 0px;
 
 }
 
@@ -318,6 +344,7 @@ h2 {
     margin-top: 94px;
     background: #F5F4FA;
     text-align: center;
+    justify-content: auto;
 }
 
 .section4 .titlle4 {
