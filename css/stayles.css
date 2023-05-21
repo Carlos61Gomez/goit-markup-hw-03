@@ -4,8 +4,9 @@
 }
 
 body {
-    font-family: 'roboto', Courier, monospace, sans-serif;
-    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 .container {
@@ -74,7 +75,7 @@ figure {
 }
 
 .header-nav {
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 .stady,
@@ -85,16 +86,16 @@ figure {
     line-height: 1.2;
     text-decoration: none;
     list-style-type: none;
-    margin-right: 60px;
+    margin-right: 50px;
     color: black;
     margin-right: 50px;
     cursor: pointer;
 }
 
 
-.stady,
-.portfolio,
-.contact:focus,
+nav .header-ul.stady,
+nav .header-ul.portfolio,
+nav .header-ul.contact:focus,
 :hover {
     color: #2196f3;
     fill: #2196f3;
@@ -118,6 +119,7 @@ figure {
     font-weight: 500;
     line-height: 1.2;
     display: inline-flex;
+    padding-left: 10px;
     margin-right: 50px;
     text-decoration: none;
     list-style-type: none;
@@ -127,6 +129,7 @@ figure {
 }
 
 .number {
+    font-family: 'Roboto';
     font-size: 14px;
     font-weight: 500;
     line-height: 1.2;
@@ -208,10 +211,12 @@ figure {
 
 /* section2 */
 
-.section2 {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.section2 ul {
 
+
+    width: 1170px;
+    height: 122px;
+    padding: 94px 0px;
 }
 
 .section2 h3 {
@@ -224,7 +229,7 @@ figure {
     text-transform: uppercase;
     color: #212121;
 
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 
 }
 
@@ -264,9 +269,16 @@ h3 {
     letter-spacing: 0.03em;
     color: #757575;
 
+
     text-transform: initial;
     justify-content: center;
 }
+
+.section2 ul {
+
+    flex-basis: calc(100% - 30px / 4);
+}
+
 
 
 
@@ -294,45 +306,46 @@ h2 {
 
 .section3_ul {
     display: flex;
-    justify-content: center;
+    padding: 0px;
+    justify-content: space-between;
     margin-bottom: 94px;
     list-style-type: none;
 }
 
 .box1 {
     background: url(../images/imagen1.jpg);
-    width: 370px;
-    height: 294px;
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
-    margin-right: 30px;
+
 }
 
 .box2 {
     background: url(../images/imagen2.jpg);
-    width: 370px;
-    height: 294px;
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-right: 30px;
+
 }
 
 .box3 {
     background: url(../images/imagen3.jpg);
-    width: 370px;
-    height: 294px;
+
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-right: 30px;
+
+}
+
+.section3_ul {
+    flex-basis: calc(100% - 46px / 3);
 }
 
 
@@ -419,12 +432,9 @@ h2 {
 
 /* section5 */
 
-
-.list1 {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-
+.linea {
+    border: 1px solid #ececec;
+    margin: 0px;
 }
 
 
@@ -432,29 +442,30 @@ li {
     padding-inline-start: 0px;
 }
 
-.list1 li {
-    float: left;
-    margin-top: 20px;
-    padding: 6px 24px;
+.list1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 
 }
 
-.list1 li button {
-    border: none;
-}
 
 
 .button-0 {
 
-    background-color: transparent;
+    background-color: #F5F4FA;
+    width: auto;
+    height: auto;
+    border: 0;
     list-style-type: none;
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-weight: 500px;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 26px;
     margin-right: 8px;
     padding: 6px 24px;
-    cursor: pointer;
+    border-radius: 4px;
 }
 
 .button-0:hover,
@@ -466,29 +477,27 @@ li {
     background: #2196f3;
 }
 
+/* section5 */
+/* section6 */
 
-.container {
-    list-style: none;
-}
-
-.section5 {
-    padding-top: 50px;
+.section6 {
+    margin-top: 50px;
     margin-bottom: 94px;
     margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.section5 ul {
+.section6 {
     list-style-type: none;
 }
 
 
-.imagenes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
 
+
+.contrainer-1 {
+    color: black;
 }
-
 
 .contenedor-1:hover,
 .contenedor-1:focus {
@@ -502,7 +511,7 @@ li {
 }
 
 
-/* section5 */
+/* section6 */
 
 
 
