@@ -432,8 +432,6 @@ h2 {
 /* section4 */
 
 
-
-
 /* section5 */
 
 .linea {
@@ -451,7 +449,7 @@ li {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 50px;
+
 
 }
 
