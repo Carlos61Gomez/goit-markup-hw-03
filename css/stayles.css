@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 
@@ -98,9 +98,13 @@ figure {
 }
 
 
-.header-nav.header-ul.stady :hover :focus,
-.header-nav .header-ul.portfolio :hover :focus,
-.header-nav.header-ul.contact :hover :focus {
+
+.header_ul .stady:focus,
+.portfolio:focus,
+.contact:focus,
+.header_ul .stady:hover,
+.portfolio:hover,
+.contact:hover {
     color: #2196f3;
     fill: #2196f3;
     border-color: #2196f3;
@@ -220,7 +224,7 @@ figure {
 
     width: 1170px;
     height: 122px;
-    padding: 94px 0px;
+    padding: 0px;
 }
 
 .section2 h3 {
