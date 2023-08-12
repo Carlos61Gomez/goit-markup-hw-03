@@ -546,7 +546,23 @@ li {
 
 
 /* section6 */
+/* Clientes Regulares*/
 
+.cliente {
+    display: flex;
+}
+
+.rectangulo {
+    width: 170px;
+    height: 81px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    display: inline-block;
+}
+
+.cliente .img {}
+
+/* Clientes Regulares*/
 
 
 
@@ -558,7 +574,7 @@ li {
     padding-top: 60px;
     padding-bottom: 60px;
     align-items: flex-start;
-
+    margin-top: 66px;
 }
 
 .footer_div {
