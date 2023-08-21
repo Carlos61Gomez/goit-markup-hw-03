@@ -530,8 +530,8 @@ li {
 
 
 /* section6 */
-/* Clientes Regulares*/
 
+/* Clientes Regulares*/
 .regular_customers {
     display: flex;
 }
@@ -540,16 +540,26 @@ li {
     width: 170px;
     height: 81px;
     border-radius: 4px;
-    border: 1px solid #AFB1B8;
+    background: #F5F4FA;
     display: inline-block;
+    margin-right: 30px;
+
 }
 
-.regular_customers .img {}
+.regular_customers ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regular_customers ul img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Clientes Regulares*/
-
-
-
 
 /* footer */
 .footer {
