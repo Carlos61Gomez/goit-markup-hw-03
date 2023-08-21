@@ -29,11 +29,11 @@ figure {
 
 .section_header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 1600px;
     height: 80px;
     padding: 32px;
+
 
 
 }
@@ -48,6 +48,7 @@ figure {
     letter-spacing: 0.03em;
     color: #2196f3;
     cursor: pointer;
+    margin-right: 93px;
 
     text-decoration: none;
 }
@@ -60,6 +61,13 @@ figure {
 .header_ul {
     display: flex;
     padding: 0px;
+    margin-right: 300px;
+
+}
+
+.header_contact_ul {
+    display: flex;
+    padding: 0px;
 }
 
 .header-ul a {
@@ -68,11 +76,12 @@ figure {
     color: black;
 }
 
-.header_ul {
+.header_ul,
+.header_contact_ul {
     list-style-type: none;
-    margin: 0px;
 
-    margin-right: 60px;
+
+
 }
 
 
