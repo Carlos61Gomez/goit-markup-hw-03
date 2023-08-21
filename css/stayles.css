@@ -22,6 +22,7 @@ figure {
     margin: 0px;
 }
 
+
 /* header*/
 
 
@@ -29,8 +30,10 @@ figure {
 .section_header {
     display: flex;
     justify-content: space-between;
-    height: 8px;
     align-items: center;
+    width: 1600px;
+    height: 80px;
+    padding: 32px;
 
 
 }
@@ -44,8 +47,6 @@ figure {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2196f3;
-    padding: 35px 0px;
-    margin-right: 100px;
     cursor: pointer;
 
     text-decoration: none;
@@ -56,9 +57,7 @@ figure {
 
 }
 
-.header-nav {
-    padding: 35px 0px;
-}
+
 
 .header_ul {
     display: flex;
@@ -75,13 +74,10 @@ figure {
     list-style-type: none;
     margin: 0px;
 
-
     margin-right: 60px;
 }
 
-.header-nav {
-    margin-right: 150px;
-}
+
 
 .stady,
 .portfolio,
@@ -112,15 +108,7 @@ figure {
 
 
 
-.section_header2 {
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin: 0px;
-    padding: 35px 0px;
 
-}
 
 .email {
     font-size: 14px;
@@ -148,15 +136,15 @@ figure {
 
 }
 
-.section_header2 .email:focus,
-.section_header2 .email:hover {
+.email:focus,
+.email:hover {
     color: #2196f3;
     fill: #2196f3;
     border-color: #2196f3;
 }
 
-.section_header2 .number:hover,
-.section_header2 .number:focus {
+.number:hover,
+.number:focus {
     color: #2196f3;
     fill: #2196f3;
     border-color: #2196f3;
@@ -165,7 +153,7 @@ figure {
 /* header */
 
 /* section1 */
-.section1 {
+.tittle {
 
     background: #2F303A;
     color: white;
@@ -219,7 +207,7 @@ figure {
 
 /* section2 */
 
-.section2 ul {
+.caracteristicas ul {
 
 
     width: 1170px;
@@ -227,7 +215,7 @@ figure {
     padding: 0px;
 }
 
-.section2 h3 {
+.caracteristicas h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -241,7 +229,7 @@ figure {
 
 }
 
-.section2 p {
+.caracteristicas p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -253,7 +241,7 @@ figure {
     margin: 0px;
 }
 
-.section2 ul {
+.caracteristicas ul {
     display: inline-flex;
     list-style-type: none;
     margin-top: 0;
@@ -282,17 +270,16 @@ h3 {
     justify-content: center;
 }
 
-.section2 ul {
+.caracteristicas ul {
 
     flex-basis: calc(100% - 30px / 4);
 }
 
 
 
-
 /* section2*/
 /* section3 */
-.section3 {
+.dedication {
     margin-top: 94px;
     margin-bottom: 94px;
 }
@@ -312,7 +299,7 @@ h2 {
     color: #212121;
 }
 
-.section3_ul {
+.dedication_ul {
     display: flex;
     padding: 0px;
     justify-content: space-between;
@@ -352,14 +339,14 @@ h2 {
 
 }
 
-.section3_ul {
+.dedication_ul {
     flex-basis: calc(100% - 46px / 3);
 }
 
 
 /* section3*/
 /* section4 */
-.section4 {
+.our__team {
     height: 648px;
     padding-top: 94px;
     margin-top: 94px;
@@ -368,7 +355,7 @@ h2 {
     justify-content: auto;
 }
 
-.section4 .titlle4 {
+.our__team .titlle4 {
     margin-bottom: 50px;
     margin-top: 94px;
     font-family: 'Roboto';
@@ -382,7 +369,7 @@ h2 {
     color: #212121;
 }
 
-.section4 p {
+.our__team p {
     font-family: 'roboto';
     font-style: normal;
     font-weight: 400;
@@ -392,13 +379,13 @@ h2 {
     color: #757575;
 }
 
-.section4_ul {
+.our__team_ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-.section4_image .name_worker {
+.our__team_image .name_worker {
     margin-top: 30px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -420,7 +407,7 @@ h2 {
     margin-right: 0px;
 }
 
-.section4_image {
+.our__team_image {
 
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -475,8 +462,8 @@ li {
     border-radius: 4px;
 }
 
-.section5 .list1 .button-0:hover,
-.section5 .list1 .button-0:focus {
+.filters .list1 .button-0:hover,
+.filters .list1 .button-0:focus {
     color: white;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -487,20 +474,17 @@ li {
 /* section5 */
 /* section6 */
 
-.section10 {
-    padding-top: 50px;
-    margin-bottom: 94px;
-}
 
-.section10 ul {
+
+.projects ul {
     list-style-type: none;
 }
 
-.section10 a {
+.projects a {
     text-decoration: none;
 }
 
-.section10_li {
+.projects_li {
     width: 370px;
     list-style: none;
     text-decoration: none;
@@ -546,7 +530,23 @@ li {
 
 
 /* section6 */
+/* Clientes Regulares*/
 
+.regular_customers {
+    display: flex;
+}
+
+.rectangulo {
+    width: 170px;
+    height: 81px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    display: inline-block;
+}
+
+.regular_customers .img {}
+
+/* Clientes Regulares*/
 
 
 
@@ -558,7 +558,7 @@ li {
     padding-top: 60px;
     padding-bottom: 60px;
     align-items: flex-start;
-
+    margin-top: 66px;
 }
 
 .footer_div {
