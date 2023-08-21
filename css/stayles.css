@@ -57,8 +57,6 @@ figure {
 
 }
 
-
-
 .header_ul {
     display: flex;
     padding: 0px;
@@ -152,7 +150,7 @@ figure {
 
 /* header */
 
-/* section1 */
+/* section tittle */
 .tittle {
 
     background: #2F303A;
@@ -201,13 +199,12 @@ figure {
 }
 
 
+/* section tittle */
 
-/* section1 */
 
+/* detailed section */
 
-/* section2 */
-
-.caracteristicas ul {
+.detailed ul {
 
 
     width: 1170px;
@@ -215,7 +212,7 @@ figure {
     padding: 0px;
 }
 
-.caracteristicas h3 {
+.detailed h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -229,7 +226,7 @@ figure {
 
 }
 
-.caracteristicas p {
+.detailed p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -241,7 +238,7 @@ figure {
     margin: 0px;
 }
 
-.caracteristicas ul {
+.detailed ul {
     display: inline-flex;
     list-style-type: none;
     margin-top: 0;
@@ -270,15 +267,14 @@ h3 {
     justify-content: center;
 }
 
-.caracteristicas ul {
+.detailed ul {
 
     flex-basis: calc(100% - 30px / 4);
 }
 
+/* detailed section */
 
-
-/* section2*/
-/* section3 */
+/* section dedication */
 .dedication {
     margin-top: 94px;
     margin-bottom: 94px;
@@ -343,9 +339,9 @@ h2 {
     flex-basis: calc(100% - 46px / 3);
 }
 
+/* section dedication */
 
-/* section3*/
-/* section4 */
+/* section our__team */
 .our__team {
     height: 648px;
     padding-top: 94px;
@@ -420,10 +416,10 @@ h2 {
     padding: 30px 40px;
 }
 
-/* section4 */
+/* section our__team */
 
 
-/* section5 */
+/* section regular_customers*/
 
 .linea {
     border: 1px solid #ececec;
@@ -471,10 +467,9 @@ li {
     background: #2196f3;
 }
 
-/* section5 */
-/* section6 */
+/* section regular_customers*/
 
-
+/* section projects */
 
 .projects ul {
     list-style-type: none;
@@ -528,8 +523,7 @@ li {
     color: #757575;
 }
 
-
-/* section6 */
+/* section projects */
 
 /* Clientes Regulares*/
 .regular_customers {
