@@ -286,7 +286,7 @@ h3 {
 .first_rectangle {
 
     width: 270px;
-    height: 120px;
+
 
 
     border-radius: 4px;
@@ -367,7 +367,7 @@ h2 {
 /* section our__team */
 .our__team {
     height: 648px;
-    padding-top: 94px;
+    padding: 94px 0px;
     margin-top: 94px;
     background: #F5F4FA;
     text-align: center;
@@ -402,6 +402,7 @@ h2 {
     list-style-type: none;
     display: flex;
     justify-content: center;
+
 }
 
 .our__team_image .name_worker {
