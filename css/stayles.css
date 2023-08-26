@@ -66,6 +66,12 @@ body {
 
 }
 
+.navigation_container {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+}
+
 .nav_tap {
     color: var(--letter-color);
 }
