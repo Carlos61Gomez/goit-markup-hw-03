@@ -30,7 +30,7 @@ body {
     background-color: var(--secondary-back);
 }
 
-.pie_de_pagina {
+.footer {
     background-color: var(--footer-color);
 }
 
@@ -466,13 +466,18 @@ section {
 }
 
 /* footer */
+
 .footer {
-    display: flex;
-    background-color: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    align-items: flex-start;
-    margin-top: 66px;
+    padding: 60px 80px;
+}
+
+.footer_logo {
+    color: var(--select-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 
 .footer_div {
@@ -486,31 +491,30 @@ section {
 
 }
 
-address p {
-    font-family: "Roboto";
-    font-style: normal;
+.foot_links .contact_address {
+    color: var(--background-color);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-}
-
-.footer_email,
-.footer_phone {
-    display: inline-flex;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
     text-decoration: none;
+}
+
+.foot_links .contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+
+.foot_links {
     list-style: none;
-    color: #757575;
-    padding-left: 0px;
+    padding: 0%;
 }
 
-.footer_phone:hover,
-.footer_email:hover {
-    color: #2196f3;
-
+.foot_links :hover {
+    color: var(--select-color);
 }
-
-
 
 /* footer */
