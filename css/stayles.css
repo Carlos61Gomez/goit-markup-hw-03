@@ -17,12 +17,16 @@ body {
     font-size: 14px;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
 
 .main_seccion {
     background-color: var(--footer-color);
 }
 
-.team {
+.our__team {
     background-color: var(--secondary-back);
 }
 
@@ -181,6 +185,11 @@ body {
 
 
 /* detailed section */
+.detailed {
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+}
 
 .detailed ul {
 
@@ -188,139 +197,70 @@ body {
     padding: 0px;
 }
 
-.detailed h3 {
-    font-family: 'Roboto';
-    font-style: normal;
+.section_ul {
+    list-style: none;
+}
+
+.detailed_ul {
+    display: flex;
+    column-gap: 30px;
+    margin: 0%;
+    padding: 0px;
+    flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.job_title {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.06em;
+    line-height: normal;
+    letter-spacing: 0.42px;
     text-transform: uppercase;
-    color: #212121;
-
-    margin-bottom: 10px;
-
 }
 
-.detailed p {
-    font-family: 'Roboto';
-    font-style: normal;
+.job_description {
+    color: var(--descriptions);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #757575;
-
-    margin: 0px;
-}
-
-.detailed ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-
-    gap: 30px;
-    padding-left: 0px;
-
-}
-
-h3 {
-    margin: 0;
-}
-
-.section_description {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #757575;
-
-
-    text-transform: initial;
-    justify-content: center;
-}
-
-.detailed ul {
-
-    flex-basis: calc(100% - 30px / 4);
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    width: 270px;
+    margin: 10px 0px;
 }
 
 .first_rectangle {
 
     width: 270px;
-
-
-
     border-radius: 4px;
     background: #F5F4FA;
 }
 
-.first_rectangle img {}
 
 /* detailed section */
 
 /* section dedication */
 .dedication {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 95px;
 }
 
-h2 {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
+.pictures {
+    list-style: none;
+    padding: 0%;
+}
 
-    color: #212121;
+.dedication_h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin: 0%;
+    padding-bottom: 55.05px;
 }
 
 .dedication_ul {
     display: flex;
-    padding: 0px;
     justify-content: space-between;
-    margin-bottom: 94px;
-    list-style-type: none;
-}
-
-.box1 {
-    background: url(../images/imagen1.jpg);
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: flex-end;
-
-}
-
-.box2 {
-    background: url(../images/imagen2.jpg);
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-}
-
-.box3 {
-    background: url(../images/imagen3.jpg);
-
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
+    margin: 0%;
+    flex-basis: calc((100% - 2 * 30.26px) / 3);
+    padding: 0%;
 }
 
 .dedication_ul {
@@ -330,80 +270,58 @@ h2 {
 /* section dedication */
 
 /* section our__team */
-.our__team {
-    <<<<<<< HEAD padding-top: 94px;
-    =======height: 648px;
-    padding: 94px 0px;
-    >>>>>>>a973ce97c9c77f1b6ce8b50cc4885ad6fada692e margin-top: 94px;
-    background: #F5F4FA;
-    text-align: center;
-    justify-content: auto;
-}
 
-.our__team .titlle4 {
-    margin-bottom: 50px;
-    margin-top: 94px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.8;
-    text-align: center;
-    letter-spacing: 0.03em;
+.our__team {}
 
-    color: #212121;
-}
-
-.our__team p {
-    font-family: 'roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #757575;
+.team_list {
+    list-style: none;
 }
 
 .our__team_ul {
-    list-style-type: none;
     display: flex;
-    justify-content: center;
-
+    margin: 0%;
+    margin-top: 50px;
+    padding: 0px;
+    column-gap: 30px;
+    align-items: flex-start;
 }
 
-.our__team_image .name_worker {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2px;
-    letter-spacing: 0.03em;
-    color: #212121;
+.team_title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin: 0 auto;
 
-}
-
-.profesion {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.our__team_image {
-
-    margin-right: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
 }
 
 .autor {
-    padding: 30px 40px;
+    padding: 20px 0px 20px 0px;
+}
+
+.name_worker {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin: 0%;
+    margin-bottom: 10px;
+}
+
+.profesion {
+    color: var(--descriptions);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin: 0%;
+}
+
+.img_autor {
+    background-color: var(--background-color);
 }
 
 /* section our__team */
@@ -543,6 +461,9 @@ li {
 }
 
 /* Clientes Regulares*/
+section {
+    padding: 94px 0px 94px 0px;
+}
 
 /* footer */
 .footer {
