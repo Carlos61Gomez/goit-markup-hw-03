@@ -24,14 +24,13 @@ figure {
 
 
 /* header*/
-
-
+.main_header {}
 
 .section_header {
     display: flex;
     align-items: center;
     width: 1600px;
-    height: 80px;
+
     padding: 32px;
 
 
@@ -52,6 +51,8 @@ figure {
 
     text-decoration: none;
 }
+
+.navigation {}
 
 .section {
     padding: 94px 0;
@@ -161,8 +162,10 @@ figure {
 
 /* section tittle */
 .tittle {
+    background-image: url(../images/fondo-header.png);
+    background-size: contain;
 
-    background: #2F303A;
+
     color: white;
     text-align: center;
     padding-top: 200px;
@@ -215,9 +218,7 @@ figure {
 
 .detailed ul {
 
-
     width: 1170px;
-    height: 122px;
     padding: 0px;
 }
 
@@ -352,7 +353,7 @@ h2 {
 
 /* section our__team */
 .our__team {
-    height: 648px;
+
     padding-top: 94px;
     margin-top: 94px;
     background: #F5F4FA;
@@ -455,7 +456,6 @@ li {
 
     background-color: #F5F4FA;
     width: auto;
-    height: auto;
     border: 0;
     list-style-type: none;
     font-family: Roboto;
@@ -541,7 +541,6 @@ li {
 
 .rectangulo {
     width: 170px;
-    height: 81px;
     border-radius: 4px;
     background: #F5F4FA;
     display: inline-block;
