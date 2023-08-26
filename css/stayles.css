@@ -282,6 +282,18 @@ h3 {
     flex-basis: calc(100% - 30px / 4);
 }
 
+.first_rectangle {
+
+    width: 270px;
+
+
+
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.first_rectangle img {}
+
 /* detailed section */
 
 /* section dedication */
@@ -353,8 +365,13 @@ h2 {
 
 /* section our__team */
 .our__team {
+<<<<<<< HEAD
 
     padding-top: 94px;
+=======
+    height: 648px;
+    padding: 94px 0px;
+>>>>>>> a973ce97c9c77f1b6ce8b50cc4885ad6fada692e
     margin-top: 94px;
     background: #F5F4FA;
     text-align: center;
@@ -389,6 +406,7 @@ h2 {
     list-style-type: none;
     display: flex;
     justify-content: center;
+
 }
 
 .our__team_image .name_worker {
@@ -542,9 +560,10 @@ li {
 .rectangulo {
     width: 170px;
     border-radius: 4px;
-    background: #F5F4FA;
+    border: 1px solid #AFB1B8;
     display: inline-block;
     margin-right: 30px;
+
 
 }
 
