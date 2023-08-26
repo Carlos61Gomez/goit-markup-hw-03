@@ -1,192 +1,150 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --background-color: rgb(255, 255, 255);
+    --letter-color: rgb(33, 33, 33);
+    --select-color: rgb(33, 150, 243);
+    --secondary-back: rgb(245, 244, 250);
+    --footer-color: rgb(47, 48, 58);
+    --descriptions: rgb(117, 117, 117);
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    color: var(--letter-color);
+    background: var(--background-color);
+    font-family: roboto, relaway, sans-serif;
     font-size: 14px;
-    letter-spacing: 0.03em;
-}
-
-.container {
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
-
-}
-
-figure {
-    margin: 0px;
 }
 
 
-/* header*/
-.main_header {}
-
-.section_header {
-    display: flex;
-    align-items: center;
-    width: 1600px;
-
-    padding: 32px;
-
-
-
+.main_seccion {
+    background-color: var(--footer-color);
 }
 
+.team {
+    background-color: var(--secondary-back);
+}
+
+.pie_de_pagina {
+    background-color: var(--footer-color);
+}
+
+/* encabezado */
 .logo {
-
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
+    text-decoration: none;
+    color: var(--select-color);
+    text-align: right;
+    font-size: 26px;
+    letter-spacing: 0.78px;
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-    cursor: pointer;
-    margin-right: 93px;
+    line-height: normal;
+    /* box */
+    padding: 24px 0% 25px 0px;
+}
 
+.navigation_bar .nav_tap {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
     text-decoration: none;
 }
 
-.navigation {}
-
-.section {
-    padding: 94px 0;
-
-}
-
-.header_ul {
+.navigation_bar {
     display: flex;
-    padding: 0px;
-    margin-right: 300px;
+    list-style: none;
+    column-gap: 50px;
+    padding: 32px 0% 32px 93px;
+    margin: 0;
 
 }
 
-.header_contact_ul {
+.nav_tap {
+    color: var(--letter-color);
+}
+
+.navigation_bar :hover {
+    color: var(--select-color);
+}
+
+.navigation_bar :focus {
+    color: var(--select-color);
+}
+
+.current {
+    color: var(--select-color);
+}
+
+.navigation_links ._link {
+    color: var(--descriptions);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.navigation_links {
     display: flex;
-    padding: 0px;
+    list-style: none;
+    column-gap: 50px;
+    padding: 32px 0px 32px 344px;
+    margin: 0;
 }
 
-.header-ul a {
-
-    text-decoration: none;
-    color: black;
+.navigation_links :hover {
+    color: var(--select-color);
 }
 
-.header_ul,
-.header_contact_ul {
-    list-style-type: none;
-
-
-
+.navigation_links :focus {
+    color: var(--select-color);
 }
 
-
-
-.stady,
-.portfolio,
-.contact {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.2;
-    text-decoration: none;
-    list-style-type: none;
-    margin-right: 50px;
-    color: black;
-    margin-right: 50px;
-    cursor: pointer;
+.main_header {
+    border-bottom: solid 0.1px;
+    border-color: #ececec;
 }
 
-
-
-.header_ul .stady:focus,
-.portfolio:focus,
-.contact:focus,
-.header_ul .stady:hover,
-.portfolio:hover,
-.contact:hover {
-    color: #2196f3;
-    fill: #2196f3;
-    border-color: #2196f3;
-}
-
-
-
-
-
-.email {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.2;
-    display: inline-flex;
-    padding-left: 10px;
-    margin-right: 50px;
-    text-decoration: none;
-    list-style-type: none;
-    color: #757575;
-
-    cursor: pointer;
-}
-
-.number {
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.2;
-    text-decoration: none;
-    list-style-type: none;
-    color: #757575;
-    cursor: pointer;
-
-}
-
-.email:focus,
-.email:hover {
-    color: #2196f3;
-    fill: #2196f3;
-    border-color: #2196f3;
-}
-
-.number:hover,
-.number:focus {
-    color: #2196f3;
-    fill: #2196f3;
-    border-color: #2196f3;
-}
 
 /* header */
 
 /* section tittle */
-.tittle {
-    background-image: url(../images/fondo-header.png);
-    background-size: contain;
 
-
-    color: white;
+.main_title {
+    color: var(--background-color);
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 250px;
-
-    margin: 0 auto;
-}
-
-.section1-title {
-    font-weight: 900;
     font-size: 44px;
-    line-height: 1.5;
-    letter-spacing: 0.06em;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
     text-transform: uppercase;
-    text-align: center;
-    margin: 0px;
-
-    color: #FFFFFF;
+    width: 696px;
+    height: 120px;
 }
 
+.first {
+    padding: 200px 0px 200px 0px;
+}
 
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.main__title-container {
+    margin: 0;
+}
+
+.main__title-container {
+    margin: 0;
+}
 
 .btn-primary {
     font-family: 'Roboto';
@@ -205,11 +163,19 @@ figure {
 }
 
 
-.btn-primary:hover {
-    background-color: #0365a6;
-    color: #F5F4FA;
+.btn-primary {
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--select-color);
+    color: var(--background-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    cursor: pointer;
+    padding: 10px 32px;
+    border: none;
 }
-
 
 /* section tittle */
 
@@ -365,14 +331,10 @@ h2 {
 
 /* section our__team */
 .our__team {
-<<<<<<< HEAD
-
-    padding-top: 94px;
-=======
-    height: 648px;
+    <<<<<<< HEAD padding-top: 94px;
+    =======height: 648px;
     padding: 94px 0px;
->>>>>>> a973ce97c9c77f1b6ce8b50cc4885ad6fada692e
-    margin-top: 94px;
+    >>>>>>>a973ce97c9c77f1b6ce8b50cc4885ad6fada692e margin-top: 94px;
     background: #F5F4FA;
     text-align: center;
     justify-content: auto;

@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,43 +26,29 @@
 
   <body>
     <!-- header-section-->
-
     <header class="main_header">
-      <div class="container">
-        <!--logo-->
-        <a href="#" class="logo">WebStudio</a>
+      <div class="navigation_container container">
+        <span><a class="logo" href="#">WebStudio</a></span>
         <nav class="navigation">
-          <ul class="header_ul">
-            <li>
-              <a class="stady active current" href="./index.html"> Estudio</a>
-            </li>
-            <li>
-              <a class="portfolio" href="./portafolio.html">Portafolio</a>
-            </li>
-            <li><a class="contact" href="#"> Contacto</a></li>
+          <ul class="navigation_bar">
+            <li><a href="./index.html" class="nav_tap current">Estudio</a></li>
+            <li><a href="./portafolio.html" class="nav_tap">Portafolio</a></li>
+            <li><a href="#" class="nav_tap">Contactos</a></li>
           </ul>
         </nav>
-        <!--contact-->
-        <ul class="header_contact_ul">
-          <li>
-            <a class="email" href="info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li><a class="number" href="+525555296000">+52 55 5529 6000</a></li>
+        <ul class="navigation_links">
+          <li><a class="_link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="_link" href="tel:+525555296000">+52 555 529 6000</a></li>
         </ul>
       </div>
     </header>
 
     <!-- main-content-section-->
     <main>
-      <section class="tittle section">
-        <div class="container">
-          <h1 class="section1-title">
-            soluciones eficientes para <br />
-            su negocio
-          </h1>
-          <button class="btn-primary" type="button">
-            Solicita nuestro servicio
-          </button>
+      <section class="main_seccion first">
+        <div class="main_container">
+          <h1 class="main_title main__title-container">soluciones eficientes para su negocio</h1>
+          <button class="btn-primary" type="button">Solicita nuestro servicio</button>
         </div>
       </section>
 
@@ -76,8 +59,8 @@
               <img src="./images/svg-2/antena 1.svg" alt="antena" />
               <h3>ATENCION A LOS DETALLES</h3>
               <p class="section_description">
-                Nos adentramos en todos los detalles y procesos de su negocio,
-                asi para desarrollar una solucion a su medida.
+                Nos adentramos en todos los detalles y procesos de su negocio, asi para desarrollar
+                una solucion a su medida.
               </p>
             </li>
 
@@ -85,9 +68,8 @@
               <img src="./images/svg-2/reloj 1.svg" alt="reloj" />
               <h3>PUNTUALIDAD</h3>
               <p class="section_description">
-                Con nosotros, usted puede sentirse seguro y protegido. Un
-                principio importante de la empresa: respetar su tiempo y
-                respetar los plazos acordados.
+                Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la
+                empresa: respetar su tiempo y respetar los plazos acordados.
               </p>
             </li>
 
@@ -96,8 +78,8 @@
 
               <h3>PLANIFICACION</h3>
               <p class="section_description">
-                Usted podra observar y participar en cada fase del desarrollo y
-                aplicacion de soluciones.
+                Usted podra observar y participar en cada fase del desarrollo y aplicacion de
+                soluciones.
               </p>
             </li>
 
@@ -105,8 +87,8 @@
               <img src="./images/svg-2/astronauta 1.svg" alt="astronauta" />
               <h3>TECNOLOGIA MODERNA</h3>
               <p class="section_description">
-                Usamos herramientas innovadoras para resolver las tareas
-                asignadas. Es hora de simplificar los procesos laborales.
+                Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de
+                simplificar los procesos laborales.
               </p>
             </li>
           </ul>
@@ -119,32 +101,17 @@
           <ul class="dedication_ul">
             <li>
               <div class="box1">
-                <img
-                  src="images/imagen1.jpg"
-                  class="compu"
-                  alt="computador"
-                  width="375"
-                />
+                <img src="images/imagen1.jpg" class="compu" alt="computador" width="375" />
               </div>
             </li>
             <li>
               <div class="box2">
-                <img
-                  src="images/imagen2.jpg"
-                  class="mobil"
-                  alt="celular"
-                  width="375"
-                />
+                <img src="images/imagen2.jpg" class="mobil" alt="celular" width="375" />
               </div>
             </li>
             <li>
               <div class="box3">
-                <img
-                  src="images/imagen3.jpg"
-                  class="tablet"
-                  alt="tablet"
-                  width="375"
-                />
+                <img src="images/imagen3.jpg" class="tablet" alt="tablet" width="375" />
               </div>
             </li>
           </ul>
@@ -214,12 +181,8 @@
           <address>
             <p>
               Calz. Ticomán 500, Ciudad de <br />México, CDMX, México<br />
-              <a class="footer_email" href="info@example.com"
-                >info@example.com</a
-              ><br />
-              <a class="footer_phone" href="tel:+525555296000"
-                >+52 55 5529 6000</a
-              >
+              <a class="footer_email" href="info@example.com">info@example.com</a><br />
+              <a class="footer_phone" href="tel:+525555296000">+52 55 5529 6000</a>
             </p>
           </address>
         </div>
