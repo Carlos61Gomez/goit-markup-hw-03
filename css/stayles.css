@@ -44,7 +44,7 @@ body {
     letter-spacing: 0.78px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+
     /* box */
     padding: 24px 0% 25px 0px;
 }
@@ -52,7 +52,7 @@ body {
 .navigation_bar .nav_tap {
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+
     letter-spacing: 0.28px;
     text-decoration: none;
 }
@@ -92,7 +92,7 @@ body {
     color: var(--descriptions);
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+
     letter-spacing: 0.28px;
     text-decoration: none;
 }
@@ -217,7 +217,7 @@ body {
 
 .job_title {
     font-weight: 700;
-    line-height: normal;
+
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
@@ -255,7 +255,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: normal;
+
     letter-spacing: 1.08px;
     margin: 0%;
     padding-bottom: 55.05px;
@@ -296,7 +296,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: normal;
+
     letter-spacing: 1.08px;
     margin: 0 auto;
 
@@ -310,7 +310,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    line-height: normal;
+
     letter-spacing: 0.48px;
     margin: 0%;
     margin-bottom: 10px;
@@ -321,7 +321,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: normal;
+
     letter-spacing: 0.48px;
     margin: 0%;
 }
@@ -365,7 +365,7 @@ li {
     font-family: Roboto;
     font-weight: 500px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     margin-right: 8px;
     padding: 6px 24px;
     border-radius: 4px;
@@ -444,7 +444,6 @@ section {
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
 }
 
