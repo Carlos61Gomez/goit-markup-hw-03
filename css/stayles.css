@@ -429,35 +429,6 @@ li {
 
 /* section projects */
 
-/* Clientes Regulares*/
-.regular_customers {
-    display: flex;
-}
-
-.rectangulo {
-    width: 170px;
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-    display: inline-block;
-    margin-right: 30px;
-
-
-}
-
-.regular_customers ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.regular_customers ul img {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Clientes Regulares*/
 section {
     padding: 94px 0px 94px 0px;
 }
