@@ -397,6 +397,10 @@ li {
     padding: 0px;
 }
 
+.img_portafolio {
+    display: block;
+}
+
 .descripcion_box {
     width: 370px;
     border: solid 1px;
