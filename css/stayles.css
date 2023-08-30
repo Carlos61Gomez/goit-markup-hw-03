@@ -42,7 +42,6 @@ body {
     text-align: right;
     font-size: 26px;
     letter-spacing: 0.78px;
-    font-style: normal;
     font-weight: 700;
 
     /* box */
@@ -50,7 +49,6 @@ body {
 }
 
 .navigation_bar .nav_tap {
-    font-style: normal;
     font-weight: 500;
 
     letter-spacing: 0.28px;
@@ -90,7 +88,6 @@ body {
 
 .navigation_links ._link {
     color: var(--descriptions);
-    font-style: normal;
     font-weight: 500;
 
     letter-spacing: 0.28px;
@@ -127,7 +124,6 @@ body {
     color: var(--background-color);
     text-align: center;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 2.64px;
@@ -158,7 +154,6 @@ body {
 
 .btn-primary {
     font-family: 'Roboto';
-    font-style: normal;
     line-height: 1.9;
     font-size: 16px;
     font-weight: 700;
@@ -480,7 +475,6 @@ section {
 .foot_links .contact_address {
     color: var(--background-color);
     font-weight: 400;
-    font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.42px;
     text-decoration: none;
