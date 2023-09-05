@@ -148,24 +148,6 @@ body {
     margin: 0;
 }
 
-.main__title-container {
-    margin: 0;
-}
-
-.btn-primary {
-    font-family: 'Roboto';
-    line-height: 1.9;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: #2196f3;
-    margin-top: 50px;
-
-    border-radius: 5px;
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
-
-}
 
 
 .btn-primary {
@@ -444,7 +426,7 @@ li {
 /* section projects */
 
 section {
-    padding: 94px 0px 94px 0px;
+    padding: 94px 0 px 94px 0px;
 }
 
 /* footer */
